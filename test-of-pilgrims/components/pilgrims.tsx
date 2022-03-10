@@ -11,7 +11,7 @@ const Pilgrims: React.FC = () => {
         <>
           <h2>{hat}</h2>
           {hairs.map((hair) => (
-            <div className="pilgrim-container" key={hair}>
+            <div className="pilgrim-container">
               <img
                 className="pilgrim-hat"
                 src={"/src/hats/hat_" + hat + ".png"}
