@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.pilgrim-container {
+  height: 256px;
+  width: 256px;
+
+  position: relative;
+
+  display: inline-block;
+}
+
+.pilgrim-hat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.pilgrim-hair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  filter: invert(0%) brightness(-96%) contrast(104%);
+}
+
+.pilgrim-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
