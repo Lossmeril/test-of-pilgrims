@@ -13,7 +13,6 @@ const Home: NextPage = () => {
 
       <div>
         <h1>Test of Pilgrims</h1>
-        <Pilgrims />
       </div>
     </div>
   );
